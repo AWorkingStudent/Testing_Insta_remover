@@ -1,0 +1,12 @@
+{
+  "name": "Insta Hide",
+  "version": "1.0",
+  "description": "Hides users on instagram from your feed",
+  "manifest_version": 2,
+  "content_scripts": [
+      {
+        "matches": ["https://www.instagram.com/"],
+        "js": ["content.js"]
+      }
+    ]
+}
